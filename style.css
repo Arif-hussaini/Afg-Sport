@@ -57,3 +57,72 @@ nav li a:hover {
 nav {
   margin: 20px;
 }
+
+/* Hero Section */
+
+main {
+  display: flex;
+  gap: 90px;
+  margin-top: 50px;
+}
+
+.left-col {
+  width: 38%;
+}
+.right-col {
+  flex-grow: 1;
+}
+
+h1 {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 2rem;
+}
+
+#subhead {
+  font-size: 20px;
+  margin: 24px 0;
+}
+
+.cta-btns {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+}
+
+.primary-cta {
+  font-size: 0.7em;
+  text-decoration: none;
+  color: black;
+  background-color: rgb(238, 213, 182);
+  padding: 8px 12px;
+  border-radius: 8px;
+  font-weight: bold;
+}
+
+.secondary-cta {
+  font-size: 0.7em;
+  text-decoration: none;
+  color: black;
+  background-color: rgba(238, 213, 182, 0.3);
+  padding: 8px 12px;
+  border-radius: 8px;
+}
+
+.box {
+  display: flex;
+  gap: 20px;
+  border: 1px solid black;
+  padding: 36px 26px;
+  border-radius: 10px;
+  margin: 24px 0;
+}
+
+.box h2 {
+  font-size: 2em;
+  font-weight: 400;
+  line-height: 100%;
+}
+
+.box p {
+  text-justify: distribute-all-lines;
+}
